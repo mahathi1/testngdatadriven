@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Stock_Suite">
+              <span class="suite-name border-failed">Stock Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Stock_Suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Stock_Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Stock_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Stock_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Stock_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Stock_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Stock_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 9 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Stock_Suite" class="hide-methods failed suite-Stock_Suite"> (hide)</a> <!-- hide-methods failed suite-Stock_Suite -->
+                      <a href="#" panel-name="suite-Stock_Suite" class="show-methods failed suite-Stock_Suite"> (show)</a> <!-- show-methods failed suite-Stock_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Stock_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.StockManagement" hash-for-method="addNewStock(org.testng.TestRunner@6f6621e3)">addNewStock(org.testng.TestRunner@6f6621e3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.Session" hash-for-method="doLogin(org.testng.TestRunner@2e5b7fba)">doLogin(org.testng.TestRunner@2e5b7fba)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.StockManagement" hash-for-method="modifyStock(sellstock, org.testng.TestRunner@10b1a751)">modifyStock(sellstock, org.testng.TestRunner@10b1a751)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.StockManagement" hash-for-method="modifyStock(addstock, org.testng.TestRunner@2e5b7fba)">modifyStock(addstock, org.testng.TestRunner@2e5b7fba)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.PortfolioManagement" hash-for-method="selectPortFolio">selectPortFolio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.PortfolioManagement" hash-for-method="selectPortFolio">selectPortFolio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.StockManagement" hash-for-method="verifyStockQuantity(addstock, org.testng.TestRunner@6f6621e3)">verifyStockQuantity(addstock, org.testng.TestRunner@6f6621e3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.StockManagement" hash-for-method="verifyStockQuantity(sellstock, org.testng.TestRunner@10b1a751)">verifyStockQuantity(sellstock, org.testng.TestRunner@10b1a751)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.StockManagement" hash-for-method="verifyStockQuantity(addstock, org.testng.TestRunner@2e5b7fba)">verifyStockQuantity(addstock, org.testng.TestRunner@2e5b7fba)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Stock_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Stock_Suite" class="hide-methods passed suite-Stock_Suite"> (hide)</a> <!-- hide-methods passed suite-Stock_Suite -->
+                      <a href="#" panel-name="suite-Stock_Suite" class="show-methods passed suite-Stock_Suite"> (show)</a> <!-- show-methods passed suite-Stock_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Stock_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.Session" hash-for-method="doLogin(org.testng.TestRunner@6f6621e3)">doLogin(org.testng.TestRunner@6f6621e3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.Session" hash-for-method="doLogin(org.testng.TestRunner@10b1a751)">doLogin(org.testng.TestRunner@10b1a751)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="testcases.rediff.PortfolioManagement" hash-for-method="selectPortFolio">selectPortFolio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Stock_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Stock_Suite" class="panel Stock_Suite">
+          <div class="suite-Stock_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.rediff.PortfolioManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPortFolio">
+                  </a> <!-- selectPortFolio -->
+                  <span class="method-name">selectPortFolio</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [688cde223660928aaaade6db984d40e4, findElement {using=xpath, value=//div[@ class=&apos;portMenu&apos;]/select[@id=&apos;portfolioid&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:62898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62898/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 688cde223660928aaaade6db984d40e4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.selectByVisibleText(GenericKeywords.java:252)
+	at testcases.rediff.PortfolioManagement.selectPortFolio(PortfolioManagement.java:39)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPortFolio">
+                  </a> <!-- selectPortFolio -->
+                  <span class="method-name">selectPortFolio</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08d1bba0b30ac980d2f61b3c7ab6f161, findElement {using=xpath, value=//div[@ class=&apos;portMenu&apos;]/select[@id=&apos;portfolioid&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:63099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63099/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d1bba0b30ac980d2f61b3c7ab6f161
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.selectByVisibleText(GenericKeywords.java:252)
+	at testcases.rediff.PortfolioManagement.selectPortFolio(PortfolioManagement.java:39)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Stock_Suite-class-failed -->
+          <div class="suite-Stock_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.rediff.Session</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(org.testng.TestRunner@2e5b7fba)">
+                  </a> <!-- doLogin(org.testng.TestRunner@2e5b7fba) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@2e5b7fba)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08d1bba0b30ac980d2f61b3c7ab6f161, sendKeysToElement {id=5cfc99a4-1f8c-4101-904b-8fc9f7328711, value=[Ljava.lang.CharSequence;@2c7106d9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:63099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63099/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (08d1bba0b30ac980d2f61b3c7ab6f161)] -&gt; id: useremail]
+Session ID: 08d1bba0b30ac980d2f61b3c7ab6f161
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
+	at keywords.GenericKeywords.type(GenericKeywords.java:93)
+	at testcases.rediff.Session.doLogin(Session.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Stock_Suite-class-failed -->
+          <div class="suite-Stock_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.rediff.StockManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewStock(org.testng.TestRunner@6f6621e3)">
+                  </a> <!-- addNewStock(org.testng.TestRunner@6f6621e3) -->
+                  <span class="method-name">addNewStock</span>
+                  <span class="parameters">(org.testng.TestRunner@6f6621e3)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [688cde223660928aaaade6db984d40e4, findElement {using=xpath, value=//table[@ id=&quot;stock&quot;]/tbody}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:62898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62898/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 688cde223660928aaaade6db984d40e4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.getRowNumWithCellData(GenericKeywords.java:274)
+	at keywords.ApplicationsKeywords.findCurrentStockQuantity(ApplicationsKeywords.java:75)
+	at testcases.rediff.StockManagement.addNewStock(StockManagement.java:21)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyStock(sellstock, org.testng.TestRunner@10b1a751)">
+                  </a> <!-- modifyStock(sellstock, org.testng.TestRunner@10b1a751) -->
+                  <span class="method-name">modifyStock</span>
+                  <span class="parameters">(sellstock, org.testng.TestRunner@10b1a751)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: sellstock
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at testcases.rediff.StockManagement.modifyStock(StockManagement.java:61)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyStock(addstock, org.testng.TestRunner@2e5b7fba)">
+                  </a> <!-- modifyStock(addstock, org.testng.TestRunner@2e5b7fba) -->
+                  <span class="method-name">modifyStock</span>
+                  <span class="parameters">(addstock, org.testng.TestRunner@2e5b7fba)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08d1bba0b30ac980d2f61b3c7ab6f161, findElement {using=xpath, value=//table[@ id=&quot;stock&quot;]/tbody}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:63099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63099/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d1bba0b30ac980d2f61b3c7ab6f161
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.getRowNumWithCellData(GenericKeywords.java:274)
+	at keywords.ApplicationsKeywords.findCurrentStockQuantity(ApplicationsKeywords.java:75)
+	at testcases.rediff.StockManagement.modifyStock(StockManagement.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockQuantity(addstock, org.testng.TestRunner@6f6621e3)">
+                  </a> <!-- verifyStockQuantity(addstock, org.testng.TestRunner@6f6621e3) -->
+                  <span class="method-name">verifyStockQuantity</span>
+                  <span class="parameters">(addstock, org.testng.TestRunner@6f6621e3)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [688cde223660928aaaade6db984d40e4, findElement {using=xpath, value=//table[@ id=&quot;stock&quot;]/tbody}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:62898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62898/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 688cde223660928aaaade6db984d40e4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.getRowNumWithCellData(GenericKeywords.java:274)
+	at keywords.ApplicationsKeywords.findCurrentStockQuantity(ApplicationsKeywords.java:75)
+	at testcases.rediff.StockManagement.verifyStockQuantity(StockManagement.java:91)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockQuantity(sellstock, org.testng.TestRunner@10b1a751)">
+                  </a> <!-- verifyStockQuantity(sellstock, org.testng.TestRunner@10b1a751) -->
+                  <span class="method-name">verifyStockQuantity</span>
+                  <span class="parameters">(sellstock, org.testng.TestRunner@10b1a751)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Quantity did not match
+	at keywords.GenericKeywords.asserAll(GenericKeywords.java:189)
+	at keywords.GenericKeywords.reportFailure(GenericKeywords.java:183)
+	at testcases.rediff.StockManagement.verifyStockQuantity(StockManagement.java:107)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockQuantity(addstock, org.testng.TestRunner@2e5b7fba)">
+                  </a> <!-- verifyStockQuantity(addstock, org.testng.TestRunner@2e5b7fba) -->
+                  <span class="method-name">verifyStockQuantity</span>
+                  <span class="parameters">(addstock, org.testng.TestRunner@2e5b7fba)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08d1bba0b30ac980d2f61b3c7ab6f161, findElement {using=xpath, value=//table[@ id=&quot;stock&quot;]/tbody}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:63099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63099/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d1bba0b30ac980d2f61b3c7ab6f161
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.getRowNumWithCellData(GenericKeywords.java:274)
+	at keywords.ApplicationsKeywords.findCurrentStockQuantity(ApplicationsKeywords.java:75)
+	at testcases.rediff.StockManagement.verifyStockQuantity(StockManagement.java:91)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Stock_Suite-class-failed -->
+          <div class="suite-Stock_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.rediff.PortfolioManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPortFolio">
+                  </a> <!-- selectPortFolio -->
+                  <span class="method-name">selectPortFolio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Stock_Suite-class-passed -->
+          <div class="suite-Stock_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.rediff.Session</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(org.testng.TestRunner@6f6621e3)">
+                  </a> <!-- doLogin(org.testng.TestRunner@6f6621e3) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@6f6621e3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(org.testng.TestRunner@10b1a751)">
+                  </a> <!-- doLogin(org.testng.TestRunner@10b1a751) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@10b1a751)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Stock_Suite-class-passed -->
+        </div> <!-- panel Stock_Suite -->
+        <div panel-name="test-xml-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Stock Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listener.MyTestNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add New Stock-New Stock&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;addstock&quot;/&gt;
+    &lt;parameter name=&quot;para1&quot; value=&quot;paraval1&quot;/&gt;
+    &lt;parameter name=&quot;dataflag&quot; value=&quot;addfreshstock&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.rediff.Session&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;doLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.rediff.Session --&gt;
+      &lt;class name=&quot;testcases.rediff.PortfolioManagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;selectPortFolio&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.rediff.PortfolioManagement --&gt;
+      &lt;class name=&quot;testcases.rediff.StockManagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addNewStock&quot;/&gt;
+          &lt;include name=&quot;verifyStockPresent&quot;/&gt;
+          &lt;include name=&quot;verifyStockQuantity&quot;/&gt;
+          &lt;include name=&quot;verifyTransactionHistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.rediff.StockManagement --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add New Stock-New Stock --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Modify Stock-Sell Existing Stock&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;sellstock&quot;/&gt;
+    &lt;parameter name=&quot;para1&quot; value=&quot;paraval1&quot;/&gt;
+    &lt;parameter name=&quot;dataflag&quot; value=&quot;sellexistingstock&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.rediff.Session&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;doLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.rediff.Session --&gt;
+      &lt;class name=&quot;testcases.rediff.PortfolioManagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;selectPortFolio&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.rediff.PortfolioManagement --&gt;
+      &lt;class name=&quot;testcases.rediff.StockManagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyStockPresent&quot;/&gt;
+          &lt;include name=&quot;modifyStock&quot;/&gt;
+          &lt;include name=&quot;verifyStockPresent&quot;/&gt;
+          &lt;include name=&quot;verifyStockQuantity&quot;/&gt;
+          &lt;include name=&quot;verifyTransactionHistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.rediff.StockManagement --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Modify Stock-Sell Existing Stock --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Modify Stock-Buy Existing Stock&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;addstock&quot;/&gt;
+    &lt;parameter name=&quot;para1&quot; value=&quot;paraval1&quot;/&gt;
+    &lt;parameter name=&quot;dataflag&quot; value=&quot;addexistingstock&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.rediff.Session&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;doLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.rediff.Session --&gt;
+      &lt;class name=&quot;testcases.rediff.PortfolioManagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;selectPortFolio&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.rediff.PortfolioManagement --&gt;
+      &lt;class name=&quot;testcases.rediff.StockManagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyStockPresent&quot;/&gt;
+          &lt;include name=&quot;modifyStock&quot;/&gt;
+          &lt;include name=&quot;verifyStockPresent&quot;/&gt;
+          &lt;include name=&quot;verifyStockQuantity&quot;/&gt;
+          &lt;include name=&quot;verifyTransactionHistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.rediff.StockManagement --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Modify Stock-Buy Existing Stock --&gt;
+&lt;/suite&gt; &lt;!-- Stock Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Stock Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Add New Stock-New Stock (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Modify Stock-Sell Existing Stock (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Modify Stock-Buy Existing Stock (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Stock Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Stock Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Stock_Suite');
+function tableData_Stock_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'modifyStock')
+data.setCell(0, 2, 'testcases.rediff.StockManagement')
+data.setCell(0, 3, 20860);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectPortFolio')
+data.setCell(1, 2, 'testcases.rediff.PortfolioManagement')
+data.setCell(1, 3, 20283);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addNewStock')
+data.setCell(2, 2, 'testcases.rediff.StockManagement')
+data.setCell(2, 3, 20269);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyStockQuantity')
+data.setCell(3, 2, 'testcases.rediff.StockManagement')
+data.setCell(3, 3, 20237);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'doLogin')
+data.setCell(4, 2, 'testcases.rediff.Session')
+data.setCell(4, 3, 7280);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'doLogin')
+data.setCell(5, 2, 'testcases.rediff.Session')
+data.setCell(5, 3, 5170);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'doLogin')
+data.setCell(6, 2, 'testcases.rediff.Session')
+data.setCell(6, 3, 4749);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectPortFolio')
+data.setCell(7, 2, 'testcases.rediff.PortfolioManagement')
+data.setCell(7, 3, 3708);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyStockQuantity')
+data.setCell(8, 2, 'testcases.rediff.StockManagement')
+data.setCell(8, 3, 939);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectPortFolio')
+data.setCell(9, 2, 'testcases.rediff.PortfolioManagement')
+data.setCell(9, 3, 34);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyStockQuantity')
+data.setCell(10, 2, 'testcases.rediff.StockManagement')
+data.setCell(10, 3, 11);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'modifyStock')
+data.setCell(11, 2, 'testcases.rediff.StockManagement')
+data.setCell(11, 3, 10);
+window.suiteTableData['Stock_Suite']= { tableData: data, tableDiv: 'times-div-Stock_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Stock_Suite">
+              </div> <!-- times-div-Stock_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Stock Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">39 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.rediff.PortfolioManagement</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">deletePortfolio</span>
+                <br/>
+                <span class="ignored-method-name">deletePortfolio</span>
+                <br/>
+                <span class="ignored-method-name">deletePortfolio</span>
+                <br/>
+                <span class="ignored-method-name">createPortfolio</span>
+                <br/>
+                <span class="ignored-method-name">createPortfolio</span>
+                <br/>
+                <span class="ignored-method-name">createPortfolio</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.rediff.Session</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">doLogout</span>
+                <br/>
+                <span class="ignored-method-name">doLogout</span>
+                <br/>
+                <span class="ignored-method-name">doLogout</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.rediff.StockManagement</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyTransactionHistroy</span>
+                <br/>
+                <span class="ignored-method-name">verifyTransactionHistroy</span>
+                <br/>
+                <span class="ignored-method-name">verifyTransactionHistroy</span>
+                <br/>
+                <span class="ignored-method-name">verifyStockPresesnt</span>
+                <br/>
+                <span class="ignored-method-name">modifyStock</span>
+                <br/>
+                <span class="ignored-method-name">verifyStockPresesnt</span>
+                <br/>
+                <span class="ignored-method-name">verifyStockPresesnt</span>
+                <br/>
+                <span class="ignored-method-name">addNewStock</span>
+                <br/>
+                <span class="ignored-method-name">addNewStock</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.rediff.Session</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@6f6621e3)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6f6621e3)</span>
+                <span class="method-start">261 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(org.testng.TestRunner@6f6621e3)</span>
+                <span class="method-start">262 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.rediff.PortfolioManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectPortFolio</span>
+                <span class="method-start">7546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6f6621e3)</span>
+                <span class="method-start">7546 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.rediff.StockManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6f6621e3)</span>
+                <span class="method-start">27842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addNewStock(org.testng.TestRunner@6f6621e3)</span>
+                <span class="method-start">27842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6f6621e3)</span>
+                <span class="method-start">48112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyStockQuantity(addstock, org.testng.TestRunner@6f6621e3)</span>
+                <span class="method-start">48113 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.rediff.Session</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">68351 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@10b1a751)</span>
+                <span class="method-start">68769 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@10b1a751)</span>
+                <span class="method-start">68770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(org.testng.TestRunner@10b1a751)</span>
+                <span class="method-start">68771 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.rediff.PortfolioManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@10b1a751)</span>
+                <span class="method-start">73942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectPortFolio</span>
+                <span class="method-start">73942 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.rediff.StockManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">modifyStock(sellstock, org.testng.TestRunner@10b1a751)</span>
+                <span class="method-start">77651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@10b1a751)</span>
+                <span class="method-start">77651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@10b1a751)</span>
+                <span class="method-start">98512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyStockQuantity(sellstock, org.testng.TestRunner@10b1a751)</span>
+                <span class="method-start">98513 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.rediff.Session</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">99452 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@2e5b7fba)</span>
+                <span class="method-start">99487 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">doLogin(org.testng.TestRunner@2e5b7fba)</span>
+                <span class="method-start">99489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@2e5b7fba)</span>
+                <span class="method-start">99489 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.rediff.PortfolioManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@2e5b7fba)</span>
+                <span class="method-start">104239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectPortFolio</span>
+                <span class="method-start">104239 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.rediff.StockManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@2e5b7fba)</span>
+                <span class="method-start">104274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">modifyStock(addstock, org.testng.TestRunner@2e5b7fba)</span>
+                <span class="method-start">104274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@2e5b7fba)</span>
+                <span class="method-start">104284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyStockQuantity(addstock, org.testng.TestRunner@2e5b7fba)</span>
+                <span class="method-start">104285 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.rediff.Session</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">104296 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

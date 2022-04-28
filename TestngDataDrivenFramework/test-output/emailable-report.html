@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Stock Suite</th></tr>
+<tr><td><a href="#t0">Add New Stock-New Stock</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">68,719</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Modify Stock-Sell Existing Stock</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">30,706</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Modify Stock-Buy Existing Stock</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">4,826</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">9</th><th class="num">104,251</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Stock Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Add New Stock-New Stock &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.rediff.PortfolioManagement</td><td><a href="#m0">selectPortFolio</a></td><td rowspan="1">1651149925308</td><td rowspan="1">20283</td></tr><tr class="failedodd"><td rowspan="2">testcases.rediff.StockManagement</td><td><a href="#m1">addNewStock</a></td><td rowspan="1">1651149945604</td><td rowspan="1">20269</td></tr><tr class="failedodd"><td><a href="#m2">verifyStockQuantity</a></td><td rowspan="1">1651149965875</td><td rowspan="1">20237</td></tr><tr><th colspan="4">Add New Stock-New Stock &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.rediff.Session</td><td><a href="#m3">doLogin</a></td><td rowspan="1">1651149918024</td><td rowspan="1">7280</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Modify Stock-Sell Existing Stock &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testcases.rediff.StockManagement</td><td><a href="#m4">modifyStock</a></td><td rowspan="1">1651149995413</td><td rowspan="1">20860</td></tr><tr class="failedeven"><td><a href="#m5">verifyStockQuantity</a></td><td rowspan="1">1651150016275</td><td rowspan="1">939</td></tr><tr><th colspan="4">Modify Stock-Sell Existing Stock &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.rediff.PortfolioManagement</td><td><a href="#m6">selectPortFolio</a></td><td rowspan="1">1651149991704</td><td rowspan="1">3708</td></tr><tr class="passedodd"><td rowspan="1">testcases.rediff.Session</td><td><a href="#m7">doLogin</a></td><td rowspan="1">1651149986533</td><td rowspan="1">5170</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Modify Stock-Buy Existing Stock &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.rediff.PortfolioManagement</td><td><a href="#m8">selectPortFolio</a></td><td rowspan="1">1651150022001</td><td rowspan="1">34</td></tr><tr class="failedodd"><td rowspan="1">testcases.rediff.Session</td><td><a href="#m9">doLogin</a></td><td rowspan="1">1651150017251</td><td rowspan="1">4749</td></tr><tr class="failedeven"><td rowspan="2">testcases.rediff.StockManagement</td><td><a href="#m10">modifyStock</a></td><td rowspan="1">1651150022036</td><td rowspan="1">10</td></tr><tr class="failedeven"><td><a href="#m11">verifyStockQuantity</a></td><td rowspan="1">1651150022047</td><td rowspan="1">11</td></tr></tbody>
+</table>
+<h2>Add New Stock-New Stock</h2><h3 id="m0">testcases.rediff.PortfolioManagement#selectPortFolio</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [688cde223660928aaaade6db984d40e4, findElement {using=xpath, value=//div[@ class=&apos;portMenu&apos;]/select[@id=&apos;portfolioid&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:62898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62898/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 688cde223660928aaaade6db984d40e4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.selectByVisibleText(GenericKeywords.java:252)
+	at testcases.rediff.PortfolioManagement.selectPortFolio(PortfolioManagement.java:39)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.rediff.StockManagement#addNewStock</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@6f6621e3</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [688cde223660928aaaade6db984d40e4, findElement {using=xpath, value=//table[@ id=&quot;stock&quot;]/tbody}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:62898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62898/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 688cde223660928aaaade6db984d40e4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.getRowNumWithCellData(GenericKeywords.java:274)
+	at keywords.ApplicationsKeywords.findCurrentStockQuantity(ApplicationsKeywords.java:75)
+	at testcases.rediff.StockManagement.addNewStock(StockManagement.java:21)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.rediff.StockManagement#verifyStockQuantity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>addstock</td><td>org.testng.TestRunner@6f6621e3</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [688cde223660928aaaade6db984d40e4, findElement {using=xpath, value=//table[@ id=&quot;stock&quot;]/tbody}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:62898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62898/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 688cde223660928aaaade6db984d40e4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.getRowNumWithCellData(GenericKeywords.java:274)
+	at keywords.ApplicationsKeywords.findCurrentStockQuantity(ApplicationsKeywords.java:75)
+	at testcases.rediff.StockManagement.verifyStockQuantity(StockManagement.java:91)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.rediff.Session#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@6f6621e3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Modify Stock-Sell Existing Stock</h2><h3 id="m4">testcases.rediff.StockManagement#modifyStock</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sellstock</td><td>org.testng.TestRunner@10b1a751</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: sellstock
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at testcases.rediff.StockManagement.modifyStock(StockManagement.java:61)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.rediff.StockManagement#verifyStockQuantity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sellstock</td><td>org.testng.TestRunner@10b1a751</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Quantity did not match
+	at keywords.GenericKeywords.asserAll(GenericKeywords.java:189)
+	at keywords.GenericKeywords.reportFailure(GenericKeywords.java:183)
+	at testcases.rediff.StockManagement.verifyStockQuantity(StockManagement.java:107)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.rediff.PortfolioManagement#selectPortFolio</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.rediff.Session#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@10b1a751</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Modify Stock-Buy Existing Stock</h2><h3 id="m8">testcases.rediff.PortfolioManagement#selectPortFolio</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08d1bba0b30ac980d2f61b3c7ab6f161, findElement {using=xpath, value=//div[@ class=&apos;portMenu&apos;]/select[@id=&apos;portfolioid&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:63099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63099/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d1bba0b30ac980d2f61b3c7ab6f161
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.selectByVisibleText(GenericKeywords.java:252)
+	at testcases.rediff.PortfolioManagement.selectPortFolio(PortfolioManagement.java:39)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.rediff.Session#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@2e5b7fba</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08d1bba0b30ac980d2f61b3c7ab6f161, sendKeysToElement {id=5cfc99a4-1f8c-4101-904b-8fc9f7328711, value=[Ljava.lang.CharSequence;@2c7106d9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:63099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63099/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (08d1bba0b30ac980d2f61b3c7ab6f161)] -&gt; id: useremail]
+Session ID: 08d1bba0b30ac980d2f61b3c7ab6f161
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
+	at keywords.GenericKeywords.type(GenericKeywords.java:93)
+	at testcases.rediff.Session.doLogin(Session.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.rediff.StockManagement#modifyStock</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>addstock</td><td>org.testng.TestRunner@2e5b7fba</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08d1bba0b30ac980d2f61b3c7ab6f161, findElement {using=xpath, value=//table[@ id=&quot;stock&quot;]/tbody}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:63099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63099/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d1bba0b30ac980d2f61b3c7ab6f161
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.getRowNumWithCellData(GenericKeywords.java:274)
+	at keywords.ApplicationsKeywords.findCurrentStockQuantity(ApplicationsKeywords.java:75)
+	at testcases.rediff.StockManagement.modifyStock(StockManagement.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testcases.rediff.StockManagement#verifyStockQuantity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>addstock</td><td>org.testng.TestRunner@2e5b7fba</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;Nagarjunas-MacBook-Pro-725.local&apos;, ip: &apos;2601:40b:8400:8f0:e1c5:7893:cb5b:a07&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08d1bba0b30ac980d2f61b3c7ab6f161, findElement {using=xpath, value=//table[@ id=&quot;stock&quot;]/tbody}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/0_/6tbnt4j505v...}, goog:chromeOptions: {debuggerAddress: localhost:63099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63099/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d1bba0b30ac980d2f61b3c7ab6f161
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:117)
+	at keywords.GenericKeywords.getRowNumWithCellData(GenericKeywords.java:274)
+	at keywords.ApplicationsKeywords.findCurrentStockQuantity(ApplicationsKeywords.java:75)
+	at testcases.rediff.StockManagement.verifyStockQuantity(StockManagement.java:91)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at runner.TestNGRunner.run(TestNGRunner.java:77)
+	at runner.JSONRunner.main(JSONRunner.java:104)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

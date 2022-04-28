@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" Portfolio Suite" >
+<listeners>
+<listener class-name="listener.MyTestNGListener"></listener>
+</listeners>
+  <test name="Create Portfolio Suite">
+    <classes>
+      <class name="testcases.rediff.Session">
+      <methods>
+      <include name="doLogin"></include>
+       
+      </methods>
+      
+      
+      </class>
+      <class name="testcases.rediff.PortfolioManagement">
+       <methods>
+      <include name="createPortfolio"></include>
+       
+      </methods>
+      
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+   <!--test  name="Delete Portfolio Suite">
+    <classes>
+      <class name="testcases.rediff.Session">
+      <methods>
+      <include name="doLogin"></include>
+       
+      </methods>
+      
+      
+      </class>
+      <class name="testcases.rediff.PortfolioManagement">
+       <methods>
+      <include name="deletePortfolio"></include>
+       
+      </methods>
+      
+      </class>
+      
+    </classes>
+  <test--> 
+    <test  name="Adding Portfolio Suite">
+    <parameter name="action" value="Buy"></parameter>
+    <classes>
+      <class name="testcases.rediff.Session">
+      <methods>
+      <include name="doLogin"></include>
+       
+      </methods>
+      
+      
+      </class>
+      <class name="testcases.rediff.PortfolioManagement">
+       <methods>
+      <include name="selectPortFolio"></include>
+       
+      </methods>
+      
+      </class>
+      <class name="testcases.rediff.StockManagement">
+       <methods>
+      <include name="modifyStock"></include>
+       
+      </methods>
+      
+      </class>
+      
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
